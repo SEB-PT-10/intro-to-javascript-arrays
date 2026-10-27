@@ -105,4 +105,14 @@ const newGuess = 'g'
 
 const board =['X', 'O', 'X', '', 'O', '', 'X', '', '']
 
-console.log(board.includes(''))
+// console.log(board.includes(''))
+
+const completedTasks = ['setup', 'design', 'testing']
+
+let newTask = 'deployment'
+
+if (!completedTasks.includes(newTask)) {
+    completedTasks.push(newTask)
+}
+
+console.log(completedTasks)
